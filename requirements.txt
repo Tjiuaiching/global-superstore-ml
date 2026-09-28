@@ -5,6 +5,4 @@ numpy==2.5.3
 joblib==1.6.0
 scikit-learn==1.6.1
 pydantic==2.13.5
-streamlit==1.64.0
-requests==2.34.2
 lz4==4.4.5
