@@ -20,7 +20,7 @@ This project focuses on two machine learning tasks.
 
 ### 1. Regression — Profit Prediction
 
-Predict transaction profit using:
+Predict the profit of an individual product line using:
 
 - Discount
 - Quantity
@@ -82,7 +82,7 @@ SQL JOIN queries are used to assemble the final working dataset.
 
 The resulting machine learning dataset contains:
 
-- **51,290 transaction records**
+- **51,290 product-line records**
 - **26 original joined features**
 
 ---
@@ -95,7 +95,7 @@ Several business patterns were identified during EDA:
 - Furniture had a noticeably lower profit margin than Technology and Office Supplies.
 - Higher discount levels were generally associated with lower profitability.
 - APAC generated the highest total profit among markets.
-- Canada showed a high profit margin, although it had a much smaller transaction volume.
+- Canada showed a high profit margin, although it had a much smaller product-line volume.
 - Sales and profit increased across the observed yearly period.
 - Discount showed a negative relationship with profit, while sales showed a positive relationship with profit.
 

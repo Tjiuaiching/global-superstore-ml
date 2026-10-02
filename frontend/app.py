@@ -16,7 +16,7 @@ st.set_page_config(
 st.title("Global Superstore ML")
 
 st.write(
-    "Predict transaction profit and analyze customer segments using machine learning."
+    "Predict product-line profit and analyze customer segments using machine learning."
 )
 
 with st.sidebar:
@@ -47,8 +47,8 @@ with st.sidebar:
 st.subheader("Profit Prediction")
 
 st.caption(
-    "Estimate the expected profit of a transaction based on "
-    "sales, discount, shipping, customer, and order information."
+    "Estimate the expected profit of a product line based on "
+    "sales, discount, shipping, customer, product, and order information."
 )
 
 with st.form("regression_form"):
